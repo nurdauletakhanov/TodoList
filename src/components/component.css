@@ -1,0 +1,109 @@
+.header{
+    line-height: 60px;
+    height: 60px;
+    font-size: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.search{
+    line-height: 35px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 4px;
+    width: 65%;
+    box-sizing: border-box;
+    border:none;
+    margin-right: 10px;
+    border:1px solid grey;
+}
+
+input:focus{
+    outline: none;
+}
+
+.item{
+    height: 50px; 
+    box-sizing: border-box;
+    border-bottom: 1px solid gray;
+    border-radius: 4px;
+    line-height: 40px;
+    padding-left: 30px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.done{
+    text-decoration-line: line-through;
+}
+
+.todo-text{
+    cursor: pointer;
+}
+
+.to-do-list{
+    border: 1px solid gray;
+    margin-bottom: 1px;
+    border-radius: 2px;
+    border-bottom: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.logo{
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.btnGroup{
+    display: flex;
+    width: 35%;
+    border: 1px solid grey;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn{  
+    text-align: center;
+    height: 100%;
+    line-height: 37px;
+    border-right: 1px solid grey;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:last-child{
+    border:none;
+}
+
+.btn:hover{
+    background-color:rgb(24, 103, 221);
+    color: #fff;
+}
+
+.todo-text:hover{
+    color: rgb(24, 103, 221);
+    font-weight: 800;
+}
